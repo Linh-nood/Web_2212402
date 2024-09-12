@@ -1,0 +1,14 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+ 
+   <title>Hi! Chào mọi người đến với trang web đầu tiên của Phi Linh</title>
+</head>
+<body>
+<p> 
+ Himọi người nhen 
+</p>
+</body>
+</html>

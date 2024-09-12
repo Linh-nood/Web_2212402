@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <TITLE>Tự học lập trình HTML</TITLE>
+    <style>
+        .b{
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <h1>Một số kiến thức cơ bản về HTML</h1>
+    <H2>1) HTML là gì?</H2>
+    <p>- HTML là chữ viết tắt của cụm từ HyperText Markup Language (ngôn ngữ đánh dấu siêu văn bản)</p>
+    <p>- HTML dùng để tạo ra các trang web, những nội dung mà chúng ta nhìn thấy trên trang web (chẳng hạn như: văn bản, hình ảnh, âm thanh, video, . . . .) chính là những thứ được xây dựng dựa trên các thẻ HTML.</p>
+    <P>- Ví dụ: Trước tiên các bạn truy cập trang <a href="">https://webcoban.vn/html/default.html</a> Sau đó, bấm tổ hợp phím Ctrl + U hoặc nhấp chuột phải vào trang rồi chọn xem nguồn trang thì các bạn sẽ thấy mã nguồn.</P>
+    <h2 >2) Tìm hiểu khái niệm <u>thẻ</u> trong HTML</h2>
+    <p>- Thẻ (tag) là một từ khóa được đặt bên trong cặp dấu ngoặc nhọn.</p>
+    <p>- Mỗi thẻ sẽ có một chức năng riêng, ví dụ:</p>
+    <ul class="b">
+        <li>Thẻ &lt;p&gt; dùng để tạo một đoạn văn bản</li>
+        <li>Thẻ &lt;a&gt; dùng để tạo một cái liên kết</li>
+        <li>Thẻ &lt;img&gt; dùng để chèn một tấm hình vào trang web.</li>
+        <li>....</li>
+    </ul>
+    <p>- Thông thường thì thẻ được chia ra làm hai loại chính, đó là: thẻ kép & thẻ đơn</p>
+    <h3>2.1) Thẻ kép</h3>
+    <p>Thẻ kép là loại thẻ mà khi chúng ta muốn sử dụng nó để tạo một nội dung gì đó cho trang web thì chúng ta cần phải dùng đến cả thẻ mở lẫn thẻ đóng (thẻ đóng có cách viết tương tự như thẻ mở, chỉ khác ở chỗ là phía trước tên của thẻ đóng thì có thêm một dấu gạch chéo)</p>
+    <p>- Dưới đây là cú pháp sử dụng thẻ kép:</p>
+    <p class="b">&lt;tagname&gt;nội dung hiển thị&lt;/tagname&gt;</p>
+    <p>- Ví dụ: Thẻ <p> thuộc loại thẻ kép, để tạo được một đoạn văn giống như trong trang web nằm ở bên tay trái thì chúng ta viết như sau:</p>
+    <p class="b">&lt;p&gt;Tài liệu học lập trình web&lt;/p&gt;</p>
+    <h3>2.2) Thẻ đơn</h3>
+    <p>- Thẻ đơn là loại thẻ mà khi chúng ta muốn sử dụng nó để tạo một nội dung gì đó cho trang web thì chúng ta chỉ cần dùng mỗi thẻ mở, hay nói cách khác là không có thẻ đóng.</p>
+    <p>- Ví dụ: Thẻ <img> thuộc loại thẻ đơn, để chèn một tấm hình vào trong trang web giống như minh họa bên phải thì chúng ta viết như sau:</p>
+    <p>&lt;img src="http://webcoban.vn/image/face.jpg"&gt;</p>
+    <p> đây là ảnh sẽ hiện.</p>
+    <img  src="http://webcoban.vn/image/face.jpg">
+    <h3>2.3) Thẻ lồng nhau</h3>
+    <p>- Thẻ lồng nhau thực chất chỉ là một trong những kỹ thuật cơ bản khi viết mã HTML, các thẻ được lồng vào nhau để xây dựng nên những nội dung đa dạng hơn.</p>
+    <p>- Ví dụ: Tôi đặt thẻ &lt;u&gt; lồng bên trong thẻ &lt;p&gt;để xác định một cụm từ được gạch dưới chân, nó giúp cho nội dung của đoạn văn bản trở nên đa dạng hơn.</p>
+    <p class="b">&lt;p&gt;Trung tâm &lt;u&gt;luyện thi&lt;/u&gt; đại học&lt;/p&gt;</p>
+    <p>- Tuy nhiên có một điều mà các bạn cần phải lưu ý đó chính là các thẻ được phép lồng vào nhau, nhưng tuyệt đối không được chéo nhau.</p>
+    <p>- Ví dụ: Viết như bên dưới là sai quy tắc.</p>
+    <p class="b">&lt;p&gt;Trung tâm &lt;u&gt;luyện thi&lt;/p&gt; đại học&lt;/u&gt;</p>
+    <p>- Lưu ý: Trong ngôn ngữ HTML, khi chúng ta viết mã sai quy tắc thì trên màn hình không hiện lên bất kỳ một thông báo lỗi nào, chỉ là các nội dung sẽ không được hiển thị chính xác như mong đợi.</p>
+    <h2>3) Tìm hiểu khái niệm tập tin HTML</h2>
+    <p>- Tập tin HTML là một loại tập tin văn bản mà bên trong nó có chứa các thẻ HTML, một tập tin HTML phải có phần đuôi là <u>.html</u> hoặc <u>.htm</u></p> 
+    <p>- <u>Lưu ý</u>: Một tập tin HTML cũng có thể được gọi là:</p>
+    <ul>
+        <li>Một tài liệu HTML.</li>
+        <li>Một trang HTML.</li>
+        <li>Một trang web.</li>
+    </ul>
+    <h2>4) Giới thiệu loạt tài liệu hướng dẫn học HTML trên <u>webcoban.vn</u></h2>
+    <p>- Hiện nay có nhiều bạn muốn học HTML nhưng vì một vài lý do nào đó (chẳng hạn như điều kiện kinh tế hoặc trùng thời gian làm việc, . . . .) nên không thể đăng ký tham gia các khóa học tại các trung tâm hoặc khóa học trực tuyến, nên đã chọn cho mình con đường tự tìm kiếm tài liệu trên mạng.</p>
+    <p>- Nắm bắt được nhu cầu đó, chúng tôi đã dành ra một khoảng thời gian khá dài để tổng hợp tất cả những kiến thức quan trọng trong HTML rồi biên soạn lại thành một "bộ tài liệu hướng dẫn học HTML" với mục đích tạo điều kiện cho các bạn có thể học HTML miễn phí, đồng thời làm chủ được thời gian.</p>
+    <p>- Bộ tài liệu này được biên soạn theo mức độ từ cơ bản đến nâng cao, mỗi bài viết đều đã được trau chuốt kỹ lưỡng, bài học trước sẽ cung cấp "kiến thức tiên quyết" cho bài học sau. Cho nên, ở mỗi bài học đều hết sức rõ ràng - mạch lạc - dễ hiểu (cột bên trái chính là danh sách các bài viết của bộ tài liệu.</p>
+    <p>- Nếu bạn là một người đang học HTML thông qua hình thức tự tìm kiếm tài liệu trên mạng thì tôi nghĩ đây sẽ là một bộ tài liệu rất hữu ích dành cho bạn.</p>
+    <p>- Chúc các bạn có một khởi đầu tốt !</p>
+</body>
